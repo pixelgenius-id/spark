@@ -1,0 +1,53 @@
+{
+    "initAccounts": [],
+    "abiFile": "unittests/contracts/eosio.system/eosio.system.abi",
+    "actions": [
+        {
+            "actionAuthAcct": "vexcore",
+            "actionName": "newaccount",
+            "authorization": {
+                "actor": "vexcore",
+                "permission": "active"
+            },
+            "actionData": {
+                "creator": "vexcore",
+                "name": "ACCT_PER_TRX",
+                "owner": {
+                    "threshold": 1,
+                    "keys": [
+                        {
+                            "key": "VEX65rXebLhtk2aTTzP4e9x1AQZs7c5NNXJp89W8R3HyaA6Zyd4im",
+                            "weight": 1
+                        }
+                    ],
+                    "accounts": [],
+                    "waits": []
+                },
+                "active": {
+                    "threshold": 1,
+                    "keys": [
+                        {
+                            "key": "VEX65rXebLhtk2aTTzP4e9x1AQZs7c5NNXJp89W8R3HyaA6Zyd4im",
+                            "weight": 1
+                        }
+                    ],
+                    "accounts": [],
+                    "waits": []
+                }
+            }
+        },
+        {
+            "actionAuthAcct": "vexcore",
+            "actionName": "buyrambytes",
+            "authorization": {
+                "actor": "vexcore",
+                "permission": "active"
+            },
+            "actionData": {
+                "payer": "vexcore",
+                "receiver": "ACCT_PER_TRX",
+                "bytes": "3000"
+            }
+        }
+    ]
+}
