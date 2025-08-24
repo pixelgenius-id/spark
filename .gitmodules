@@ -13,7 +13,10 @@
 [submodule "libraries/boost"]
 	path = libraries/boost
 	url = https://github.com/boostorg/boost.git
-[submodule "libraries/appbase"]
+[submodule "libraries/libfc/libraries/boringssl/boringssl"]
+	path = libraries/libfc/libraries/boringssl/boringssl
+	url = https://github.com/pixelgenius-id/boringssl-build
+[submodule "libraries/appbase"] 
 	path = libraries/appbase
 	url = https://github.com/pixelgenius-id/appbase
 [submodule "libraries/chainbase"]
@@ -37,6 +40,3 @@
 [submodule "libraries/libfc/libraries/bls12-381"]
 	path = libraries/libfc/libraries/bls12-381
 	url = https://github.com/pixelgenius-id/bls12-381
-[submodule "libraries/libfc/libraries/boringssl/boringssl"]
-	path = libraries/libfc/libraries/boringssl/boringssl
-	url = https://github.com/pixelgenius-id/boringssl-build
