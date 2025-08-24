@@ -20,6 +20,7 @@ moc_*
 
 .cache
 
+genesis.json
 hardfork.hpp
 
 libraries/utilities/git_revision.cpp
@@ -90,3 +91,4 @@ CMakeLists.txt.user
 node_modules
 package-lock.json
 
+snapshots
