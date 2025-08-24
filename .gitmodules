@@ -37,3 +37,6 @@
 [submodule "libraries/libfc/libraries/bls12-381"]
 	path = libraries/libfc/libraries/bls12-381
 	url = https://github.com/pixelgenius-id/bls12-381
+[submodule "libraries/libfc/libraries/boringssl/boringssl"]
+	path = libraries/libfc/libraries/boringssl/boringssl
+	url = https://github.com/pixelgenius-id/boringssl-build
