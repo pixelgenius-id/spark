@@ -112,7 +112,7 @@ struct eosvmoc_tier {
       }
 
       void code_block_num_last_used(const digest_type& code_hash, const uint8_t& vm_type, const uint8_t& vm_version, const uint32_t& block_num) {
-         // The caller of this method apply_eosio_setcode has asserted that
+         // The caller of this method apply_vexcore_setcode has asserted that
          // the transaction is not read-only, implying we are
          // in write window. Read-only threads are not running.
          // Safe to update the cache without locking.
