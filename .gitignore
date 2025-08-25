@@ -57,6 +57,7 @@ programs/nodeos/nodeos
 scripts/tn_init.sh
 
 tests/plugin_test
+unittests/unit_test
 
 doxygen
 eos.doxygen
