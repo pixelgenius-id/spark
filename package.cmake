@@ -42,7 +42,7 @@ set(CPACK_PACKAGE_VENDOR "Pixelgenius-id")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "C++ implementation of the Antelope protocol")
 set(CPACK_COMPONENT_BASE_DESCRIPTION "daemon and CLI tools including ${NODE_EXECUTABLE_NAME}, ${CLI_CLIENT_EXECUTABLE_NAME}, and ${KEY_STORE_EXECUTABLE_NAME}")
 set(CPACK_COMPONENT_DEV_DESCRIPTION "headers and libraries for native contract unit testing")
-set(CPACK_PACKAGE_HOMEPAGE_URL "https://github.com/AntelopeIO/leap")
+set(CPACK_PACKAGE_HOMEPAGE_URL "https://github.com/pixelgenius-id/spark")
 
 set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
 set(CPACK_DEBIAN_BASE_PACKAGE_SECTION "utils")
